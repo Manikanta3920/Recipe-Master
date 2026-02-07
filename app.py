@@ -17,7 +17,7 @@ from docx import Document
 load_dotenv()
 
 # Render will use Environment Variables (not .env file)
-api_key = os.getenv("GOOGLE_API_KEY")
+api_key = os.getenv("GEMINI_API_KEY")
 
 # If key not found → stop app
 if not api_key:
